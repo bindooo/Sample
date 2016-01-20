@@ -23,11 +23,13 @@ public class LifeCycleTest extends Activity {
         setContentView(textView);
         log("created");
     }
+
     @Override
     protected void onResume() {
         super.onResume();
         log("resumed");
     }
+
     @Override
     protected void onPause() {
         super.onPause();
